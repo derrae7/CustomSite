@@ -1,0 +1,64 @@
+* {
+  background-color: rgb(240, 239, 161);
+  }
+
+  img {
+  height: auto;
+  width: 500px;
+  display: flex;
+  padding-bottom: 300px;
+ 
+  
+}
+  
+.subsection {
+    color: blue;
+  }
+
+  .title {
+    color: red;
+    font-weight: 500;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+  .menu {
+  display: flex; 
+
+}
+  .menu a {
+    flex: 1;
+  }
+
+  .imagebox {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    display: flex;
+  }
+
+  .img {
+
+  }
+
+
+
+  
+
+
+
+  element.style {
+  }
+  nav.menu {
+  }
+  .menu {
+      display: flex;
+      text-align: center;
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
