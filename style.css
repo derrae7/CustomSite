@@ -26,6 +26,7 @@
 
   .menu {
   display: flex; 
+  
 
 }
   .menu a {
@@ -39,26 +40,123 @@
     height: 100px;
     align-items: center;
     display: flex;
+    border: 350px;
+ 
   }
 
-  .img {
+  .imagebox2 {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    margin: 650px;
 
   }
 
-
-
-  
-
-
-
-  element.style {
+  .imagebox3 {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    margin 500px;
   }
-  nav.menu {
-  }
+
   .menu {
       display: flex;
       text-align: center;
       width: 400px;
       margin-left: auto;
       margin-right: auto;
+      font-family: 'Bungee', cursive;
   }
+  .blogposts {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+
+  
+    .flex-container {
+     
+      display: flex;
+      gap: 150px;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-family: sans-serif;
+      padding: 100px;
+     
+
+    }
+    .flex-container a{    
+        border: 5px solid rgb(141, 136, 142);
+        height: auto;
+        width: 100px;
+        padding: 100px;
+        flex-wrap: wrap;
+        font-weight: bolder;
+       
+    }
+
+    .nav-link {
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 50px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 30px;
+    }
+
+    .flex-containa {
+      display: flex;
+      padding: 100px;
+      gap: 150px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .flex-containa a {
+         
+
+      border: 5px solid rgb(141, 136, 142);
+      height: 50px;
+      width: 100px;
+      padding: 100px;
+      flex-wrap: wrap;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .blog-link {
+      text-decoration: none;
+      font-family: 'Bungee', cursive;
+      padding: 50px;
+    }
+
+    .logo-area {
+      margin-left: auto;
+      margin-right: auto;
+      flex-direction: column;
+      height: 100px;
+      align-items: center;
+      display: flex;
+    }
+
+
+
+    .whatever {
+      padding: 50px;
+      color: rgb(63, 158, 32);
+      font-weight: bolder;
+      font-family:'Courier New', Courier, monospace
+      font-size: 50px; 
+    }
